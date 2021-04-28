@@ -1,12 +1,3 @@
-<script>
-import { defineComponent } from 'vue'
-import ButtonRepo from '@/components/ButtonRepo.vue'
-
-export default defineComponent({
-  components: { ButtonRepo },
-})
-</script>
-
 <template>
   <main>
     <div class="bg-gray-50">
@@ -34,3 +25,7 @@ export default defineComponent({
     </div>
   </main>
 </template>
+
+<script setup>
+import ButtonRepo from "@/components/ButtonRepo.vue";
+</script>
